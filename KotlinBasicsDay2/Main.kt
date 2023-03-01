@@ -34,6 +34,13 @@ fun addition(){
 }
 
 fun main(){
+    var point1 = Point1(20)
+    var point12 = Point1(60,70)
+    var point13 = Point1()
+    point13.display()
+    point1.display()
+    point12.show()
+
     var p : Point = Point()
     //var p2 : Point = Point(10,90)
     var p1 : Point = Point(10,90)
